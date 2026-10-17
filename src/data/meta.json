@@ -1,0 +1,756 @@
+{
+ "schema_version": 2,
+ "generated_at": "2026-10-17T17:24:08+00:00",
+ "hours": 24,
+ "sources": [
+  {
+   "name": "La Jornada",
+   "url": "https://www.jornada.com.mx/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "El Financiero",
+   "url": "https://www.elfinanciero.com.mx/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "Reforma",
+   "url": "https://www.reforma.com/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "Excélsior",
+   "url": "https://www.excelsior.com.mx/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "Unotv",
+   "url": "https://www.unotv.com/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "El Sol de México",
+   "url": "https://oem.com.mx/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "Expansión",
+   "url": "https://expansion.mx/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "La Jornada · Opinión",
+   "url": "https://www.jornada.com.mx/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "Sin Embargo",
+   "url": "https://feeds.feedburner.com/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "Julio Astillero",
+   "url": "https://julioastillero.com/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "ABC Noticias",
+   "url": "https://www.abcnoticias.mx/",
+   "state": "Nuevo León",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Info7",
+   "url": "https://www.info7.mx/",
+   "state": "Nuevo León",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Horizonte",
+   "url": "https://www.elhorizonte.mx/",
+   "state": "Nuevo León",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Norte",
+   "url": "https://www.elnorte.com/",
+   "state": "Nuevo León",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Porvenir",
+   "url": "https://www.elporvenir.mx/",
+   "state": "Nuevo León",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Vanguardia",
+   "url": "https://vanguardia.com.mx/",
+   "state": "Coahuila",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Siglo de Torreón",
+   "url": "https://www.elsiglodetorreon.com.mx/",
+   "state": "Coahuila",
+   "municipality": "Torreón",
+   "scope": "local"
+  },
+  {
+   "name": "Hoy Tamaulipas",
+   "url": "https://www.hoytamaulipas.net/",
+   "state": "Tamaulipas",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Diario de Yucatán",
+   "url": "https://www.yucatan.com.mx/",
+   "state": "Yucatán",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Quadratín Michoacán",
+   "url": "https://www.quadratin.com.mx/",
+   "state": "Michoacán",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Informador",
+   "url": "https://www.informador.mx/",
+   "state": "Jalisco",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "La Razón",
+   "url": "https://www.razon.com.mx/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "La Crónica",
+   "url": "https://www.cronica.com.mx/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "Publimetro",
+   "url": "https://www.publimetro.com.mx/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "24 Horas",
+   "url": "https://24-horas.mx/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "El País México",
+   "url": "https://feeds.elpais.com/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "Infobae México",
+   "url": "https://www.infobae.com/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "SDP Noticias",
+   "url": "https://www.sdpnoticias.com/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "Pie de Página",
+   "url": "https://piedepagina.mx/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "Contralínea",
+   "url": "https://contralinea.com.mx/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "Regeneración",
+   "url": "https://regeneracion.mx/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "Hidrocálido",
+   "url": "https://www.hidrocalidodigital.com/",
+   "state": "Aguascalientes",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Sol del Centro",
+   "url": "https://oem.com.mx/",
+   "state": "Aguascalientes",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "La Jornada Baja California",
+   "url": "https://jornadabc.com.mx/",
+   "state": "Baja California",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Zeta Tijuana",
+   "url": "https://zetatijuana.com/",
+   "state": "Baja California",
+   "municipality": "Tijuana",
+   "scope": "local"
+  },
+  {
+   "name": "El Sol de Tijuana",
+   "url": "https://oem.com.mx/",
+   "state": "Baja California",
+   "municipality": "Tijuana",
+   "scope": "local"
+  },
+  {
+   "name": "La Voz de la Frontera",
+   "url": "https://www.lavozdelafrontera.com.mx/",
+   "state": "Baja California",
+   "municipality": "Mexicali",
+   "scope": "local"
+  },
+  {
+   "name": "El Sudcaliforniano",
+   "url": "https://oem.com.mx/",
+   "state": "Baja California Sur",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "BCS Noticias",
+   "url": "https://www.bcsnoticias.mx/",
+   "state": "Baja California Sur",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Diario del Sur",
+   "url": "https://www.diariodelsur.com.mx/",
+   "state": "Chiapas",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Cuarto Poder",
+   "url": "https://www.cuartopoder.mx/",
+   "state": "Chiapas",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Heraldo de Chiapas",
+   "url": "https://oem.com.mx/",
+   "state": "Chiapas",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Heraldo de Chihuahua",
+   "url": "https://oem.com.mx/",
+   "state": "Chihuahua",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Heraldo de Juárez",
+   "url": "https://oem.com.mx/",
+   "state": "Chihuahua",
+   "municipality": "Juárez",
+   "scope": "local"
+  },
+  {
+   "name": "El Sol de Parral",
+   "url": "https://oem.com.mx/",
+   "state": "Chihuahua",
+   "municipality": "Hidalgo del Parral",
+   "scope": "local"
+  },
+  {
+   "name": "Norte Digital",
+   "url": "https://nortedigital.mx/",
+   "state": "Chihuahua",
+   "municipality": "Juárez",
+   "scope": "local"
+  },
+  {
+   "name": "El Sol de Durango",
+   "url": "https://oem.com.mx/",
+   "state": "Durango",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Contacto Hoy",
+   "url": "https://contactohoy.com.mx/",
+   "state": "Durango",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "AM",
+   "url": "https://www.am.com.mx/",
+   "state": "Guanajuato",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Sol de León",
+   "url": "https://oem.com.mx/",
+   "state": "Guanajuato",
+   "municipality": "León",
+   "scope": "local"
+  },
+  {
+   "name": "El Sol de Irapuato",
+   "url": "https://oem.com.mx/",
+   "state": "Guanajuato",
+   "municipality": "Irapuato",
+   "scope": "local"
+  },
+  {
+   "name": "El Sol de Salamanca",
+   "url": "https://oem.com.mx/",
+   "state": "Guanajuato",
+   "municipality": "Salamanca",
+   "scope": "local"
+  },
+  {
+   "name": "El Sol del Bajío",
+   "url": "https://oem.com.mx/",
+   "state": "Guanajuato",
+   "municipality": "Celaya",
+   "scope": "local"
+  },
+  {
+   "name": "El Sur Acapulco",
+   "url": "https://suracapulco.mx/",
+   "state": "Guerrero",
+   "municipality": "Acapulco",
+   "scope": "local"
+  },
+  {
+   "name": "El Sol de Acapulco",
+   "url": "https://oem.com.mx/",
+   "state": "Guerrero",
+   "municipality": "Acapulco",
+   "scope": "local"
+  },
+  {
+   "name": "El Sol de Hidalgo",
+   "url": "https://oem.com.mx/",
+   "state": "Hidalgo",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Sol de Tulancingo",
+   "url": "https://oem.com.mx/",
+   "state": "Hidalgo",
+   "municipality": "Tulancingo",
+   "scope": "local"
+  },
+  {
+   "name": "El Occidental",
+   "url": "https://oem.com.mx/",
+   "state": "Jalisco",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Sol de Toluca",
+   "url": "https://oem.com.mx/",
+   "state": "Estado de México",
+   "municipality": "Toluca",
+   "scope": "local"
+  },
+  {
+   "name": "El Sol de San Juan del Río",
+   "url": "https://oem.com.mx/",
+   "state": "Querétaro",
+   "municipality": "San Juan del Río",
+   "scope": "local"
+  },
+  {
+   "name": "La Voz de Michoacán",
+   "url": "https://www.lavozdemichoacan.com.mx/",
+   "state": "Michoacán",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Sol de Morelia",
+   "url": "https://oem.com.mx/",
+   "state": "Michoacán",
+   "municipality": "Morelia",
+   "scope": "local"
+  },
+  {
+   "name": "El Sol de Zamora",
+   "url": "https://oem.com.mx/",
+   "state": "Michoacán",
+   "municipality": "Zamora",
+   "scope": "local"
+  },
+  {
+   "name": "Diario de Morelos",
+   "url": "https://www.diariodemorelos.com/",
+   "state": "Morelos",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Sol de Cuernavaca",
+   "url": "https://oem.com.mx/",
+   "state": "Morelos",
+   "municipality": "Cuernavaca",
+   "scope": "local"
+  },
+  {
+   "name": "El Sol de Cuautla",
+   "url": "https://oem.com.mx/",
+   "state": "Morelos",
+   "municipality": "Cuautla",
+   "scope": "local"
+  },
+  {
+   "name": "Meridiano",
+   "url": "https://meridiano.mx/",
+   "state": "Nayarit",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "NVI Noticias",
+   "url": "https://www.nvinoticias.com/",
+   "state": "Oaxaca",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Imparcial de Oaxaca",
+   "url": "https://imparcialoaxaca.mx/",
+   "state": "Oaxaca",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Sol de Puebla",
+   "url": "https://oem.com.mx/",
+   "state": "Puebla",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Diario de Querétaro",
+   "url": "https://oem.com.mx/",
+   "state": "Querétaro",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Rotativo",
+   "url": "https://rotativo.com.mx/",
+   "state": "Querétaro",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Noticaribe",
+   "url": "https://noticaribe.com.mx/",
+   "state": "Quintana Roo",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Sol de San Luis",
+   "url": "https://oem.com.mx/",
+   "state": "San Luis Potosí",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Astrolabio",
+   "url": "https://www.astrolabio.com.mx/",
+   "state": "San Luis Potosí",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "La Jornada San Luis",
+   "url": "https://lajornadasanluis.com.mx/",
+   "state": "San Luis Potosí",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Noroeste",
+   "url": "https://www.noroeste.com.mx/",
+   "state": "Sinaloa",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Línea Directa",
+   "url": "https://lineadirectaportal.com/",
+   "state": "Sinaloa",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Los Noticieristas",
+   "url": "https://losnoticieristas.com/",
+   "state": "Sinaloa",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Sol de Sinaloa",
+   "url": "https://oem.com.mx/",
+   "state": "Sinaloa",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Sol de Mazatlán",
+   "url": "https://oem.com.mx/",
+   "state": "Sinaloa",
+   "municipality": "Mazatlán",
+   "scope": "local"
+  },
+  {
+   "name": "El Imparcial",
+   "url": "https://www.elimparcial.com/",
+   "state": "Sonora",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Expreso de Tamaulipas",
+   "url": "https://expreso.press/",
+   "state": "Tamaulipas",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Sol de Hermosillo",
+   "url": "https://oem.com.mx/",
+   "state": "Sonora",
+   "municipality": "Hermosillo",
+   "scope": "local"
+  },
+  {
+   "name": "Tabasco Hoy",
+   "url": "https://www.tabascohoy.com/",
+   "state": "Tabasco",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Heraldo de Tabasco",
+   "url": "https://oem.com.mx/",
+   "state": "Tabasco",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Sol de Tampico",
+   "url": "https://oem.com.mx/",
+   "state": "Tamaulipas",
+   "municipality": "Tampico",
+   "scope": "local"
+  },
+  {
+   "name": "El Sol de Tlaxcala",
+   "url": "https://oem.com.mx/",
+   "state": "Tlaxcala",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Diario de Xalapa",
+   "url": "https://oem.com.mx/",
+   "state": "Veracruz",
+   "municipality": "Xalapa",
+   "scope": "local"
+  },
+  {
+   "name": "El Sol de Orizaba",
+   "url": "https://oem.com.mx/",
+   "state": "Veracruz",
+   "municipality": "Orizaba",
+   "scope": "local"
+  },
+  {
+   "name": "El Sol de Córdoba",
+   "url": "https://oem.com.mx/",
+   "state": "Veracruz",
+   "municipality": "Córdoba",
+   "scope": "local"
+  },
+  {
+   "name": "Proceso",
+   "url": "https://www.proceso.com.mx/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "Aristegui Noticias",
+   "url": "https://aristeguinoticias.com/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "El Heraldo de México",
+   "url": "https://heraldodemexico.com.mx/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "El Economista",
+   "url": "https://www.eleconomista.com.mx/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "La Silla Rota",
+   "url": "https://www.lasillarota.com/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "Zona Franca",
+   "url": "https://zonafranca.mx/",
+   "state": "Guanajuato",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "e-consulta",
+   "url": "https://www.e-consulta.com/",
+   "state": "Puebla",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Pulso",
+   "url": "https://pulsoslp.com.mx/",
+   "state": "San Luis Potosí",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Siglo de Durango",
+   "url": "https://www.elsiglodedurango.com.mx/",
+   "state": "Durango",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Dictamen",
+   "url": "https://www.eldictamen.mx/",
+   "state": "Veracruz",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Novedades Quintana Roo",
+   "url": "https://sipse.com/",
+   "state": "Quintana Roo",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Alcalorpolítico",
+   "url": "https://www.alcalorpolitico.com/",
+   "state": "Veracruz",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "El Mercurio de Tamaulipas",
+   "url": "https://elmercurio.com.mx/",
+   "state": "Tamaulipas",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Imagen Zacatecas",
+   "url": "https://www.imagenzac.com.mx/",
+   "state": "Zacatecas",
+   "municipality": null,
+   "scope": "estatal"
+  },
+  {
+   "name": "Posta",
+   "url": "https://www.posta.com.mx/",
+   "state": "Nacional",
+   "municipality": null,
+   "scope": "nacional"
+  },
+  {
+   "name": "Criterio Hidalgo",
+   "url": "https://www.criteriohidalgo.com/",
+   "state": "Hidalgo",
+   "municipality": null,
+   "scope": "estatal"
+  }
+ ]
+}
